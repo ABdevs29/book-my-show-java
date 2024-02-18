@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Getter
 @Setter
-@Entity
+@Entity(name = "payments")
 public class Payment extends BaseModel{
     private int amount;
     private String referenceNo;

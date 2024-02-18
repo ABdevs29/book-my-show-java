@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
+@Entity(name = "regions")
 public class Region extends BaseModel {
     private String name;
 }
